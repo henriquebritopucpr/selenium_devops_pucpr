@@ -16,6 +16,10 @@ if __name__ == "__main__":
     first_result.click()
 
     time.sleep(2)
-    print("Título da página:", driver.title)
+    title = driver.title
+    print("Título da página:", title)
+
+    with open("resultado.txt", "w", encoding="utf-8") as f:
+        f.write(title + "\n")
 
     driver.quit()
