@@ -47,6 +47,7 @@ def run(term: str = "Immanuel Kant", out_path: str = "artigo_kant.txt"):
         driver.quit()
 
 if __name__ == "__main__":
+    #
     term = sys.argv[1] if len(sys.argv) > 1 else "Immanuel Kant"
     out = sys.argv[2] if len(sys.argv) > 2 else "artigo_kant.txt"
     run(term, out)
