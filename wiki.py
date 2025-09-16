@@ -15,4 +15,7 @@ if __name__ == "__main__":
     first_result = driver.find_element(By.CSS_SELECTOR, "ul.mw-search-results li a")
     first_result.click()
 
+    time.sleep(2)
+    print("Título da página:", driver.title)
+
     driver.quit()
