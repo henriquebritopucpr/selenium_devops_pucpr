@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-if __name__ == "__main__":
+def run():
     driver = webdriver.Chrome()
     driver.get("https://www.wikipedia.org")
 

@@ -1,11 +1,3 @@
-"""
-Teste de integração mínimo para o scraper Selenium.
-
-- Usa a função run(term, out_path) do src/bot.py
-- Gera um arquivo com o conteúdo do artigo
-- Faz asserts leves para evitar flakiness
-"""
-
 from pathlib import Path
 import os
 
