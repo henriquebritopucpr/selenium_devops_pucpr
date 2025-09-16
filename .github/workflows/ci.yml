@@ -30,4 +30,6 @@ jobs:
       - name: Rodar testes
         env:
           CHROME_BIN: google-chrome
+          PYTHONPATH: .
         run: pytest -q
+
