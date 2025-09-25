@@ -1,6 +1,6 @@
 name: Discord Alert
 
-on: [push,commit]
+on: [push]
 
 jobs:
   notify:
